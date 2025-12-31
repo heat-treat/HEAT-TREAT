@@ -1,228 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- <title>𝑯𝑬𝑨𝑻 𝑨𝑵𝑫 𝑻𝑹𝑬𝑨𝑻 | 𝑻𝑨𝑺𝑻𝑬𝑪𝑶𝑫𝑬</title> -->
-  <title>𝑯𝑬𝑨𝑻 𝑨𝑵𝑫 𝑻𝑹𝑬𝑨𝑻 | 𝑯𝑨𝑻</title>
-  
-  <!-- Favicon -->
-  <!-- <link rel="icon" href="https://ibb.co.com/wF6v8cCW" type="image/png" sizes="512x512"> -->
-  <!-- FAVICONS - OPTIMIZED FOR ALL DEVICES -->
-<link rel="icon" href="https://i.ibb.co.com/LhtsNQcj/logo.png" type="image/png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://i.ibb.co.com/LhtsNQcj/logo.png">
-<link rel="icon" type="image/png" sizes="32x32" href="hhttps://i.ibb.co.com/LhtsNQcj/logo.png">
-<link rel="icon" type="image/png" sizes="16x16" href="hhttps://i.ibb.co.com/LhtsNQcj/logo.png">
-  
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-  <!-- Scroll to Top Button -->
-   <!-- Page Load Transition Overlay -->
-  <div class="page-transition" id="pageTransition">
-    <div class="loader"></div>
-  </div>
-
-  <!-- Scroll to Top Button -->
-  <button id="scrollTopBtn" title="Back to Top">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 19V5M5 12l7-7 7 7"/>
-    </svg>
-  </button>
-
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-logo">
-        <a href="#home" class="logo-link">
-          <img src="https://i.ibb.co.com/LhtsNQcj/logo.png" alt="Heat & Treat Logo" class="logo-img">
-          <h2>HEAT & TREAT</h2>
-        </a>
-      </div>
-
-      <ul class="nav-menu">
-        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-        <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <h1>HEAT & TREAT</h1>
-    <p>Fiery Flavors, Icy Chills.<br>All in One Place!!</p>
-    <a href="#menu" class="btn">Explore Menu</a>
-  </section>
-
-  <!-- Tabs + Menu Section -->
-  <section class="tab-container" id="menu">
-    <div class="tabs">
-      <button class="tab-btn active" data-tab="drinks">DRINK</button>
-      <button class="tab-btn" data-tab="food">FOOD</button>
-    </div>
-
-    <!-- DRINKS TAB -->
-    <div id="drinks" class="tab-content active">
-      <div class="menu-grid">
-        <div class="menu-card">
-          <h3>HOTTY DRINKS</h3>
-          <div class="menu-item"><span>Americano</span><span class="price">59 TK</span></div>
-          <div class="menu-item"><span>Latte</span><span class="price">89 TK</span></div>
-          <div class="menu-item"><span>Cappuccino</span><span class="price">89 TK</span></div>
-          <div class="menu-item"><span>Mocha</span><span class="price">119 TK</span></div>
-          <div class="menu-item"><span>Hot Chocolate</span><span class="price">109 TK</span></div>
-          <div class="menu-item"><span>Caramel Latte</span><span class="price">99 TK</span></div>
-        </div>
-
-        <div class="menu-card">
-          <h3>ICEY DRINKS</h3>
-          <div class="menu-item"><span>Iced Americano</span><span class="price">69 TK</span></div>
-          <div class="menu-item"><span>Iced Latte</span><span class="price">99 TK</span></div>
-          <div class="menu-item"><span>Iced Cappuccino</span><span class="price">99 TK</span></div>
-          <div class="menu-item"><span>Iced Mocha</span><span class="price">129 TK</span></div>
-          <div class="menu-item"><span>Iced Chocolate</span><span class="price">119 TK</span></div>
-          <div class="menu-item"><span>Iced Caramel Latte</span><span class="price">109 TK</span></div>
-        </div>
-
-        <div class="menu-card">
-          <h3>ICEY SHAKES</h3>
-          <div class="menu-item"><span>Choco Blast</span><span class="price">139 TK</span></div>
-          <div class="menu-item"><span>Strawberry Blast</span><span class="price">139 TK</span></div>
-          <div class="menu-item"><span>Lime Soda</span><span class="price">99 TK</span></div>
-          <div class="menu-item"><span>KitKat Blast</span><span class="price">149 TK</span></div>
-          <div class="menu-item"><span>Oreo Blast</span><span class="price">149 TK</span></div>
-          <div class="menu-item"><span>Vanilla Blast</span><span class="price">119 TK</span></div>
-          <div class="menu-item"><span>Mint Blast</span><span class="price">99 TK</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- FOOD TAB -->
-    <div id="food" class="tab-content">
-      <div class="menu-grid">
-        <!-- DEEPLY FRIED -->
-        <div class="menu-card">
-          <h3>DEEPLY FRIED</h3>
-          <div class="menu-item"><span>French Fries</span><span class="price">69 TK</span></div>
-          <div class="menu-item"><span>Chicken Wings (3/6pcs)</span><span class="price">99|179 TK</span></div>
-          <div class="menu-item"><span>Fries N Leg</span><span class="price">199 TK</span></div>
-        </div>
-
-        <!-- WHOLE MEAT -->
-        <div class="menu-card">
-          <h3>WHOLE MEAT</h3>
-          <div class="menu-item"><span>Chicken Katsu</span><span class="price">109 TK</span></div>
-          <div class="menu-item"><span>Chicken Stake</span><span class="price">169 TK</span></div>
-        </div>
-
-        <!-- STOMACH FILLERS -->
-        <div class="menu-card">
-          <h3>STOMACH FILLERS</h3>
-          <div class="menu-item"><span>Chicken Fried Rice</span><span class="price">79 TK</span></div>
-          <div class="menu-item"><span>Chicken Chow Mein</span><span class="price">99 TK</span></div>
-          <div class="menu-item"><span>Hot Red Pasta</span><span class="price">119 TK</span></div>
-          <div class="menu-item"><span>White Cream Pasta</span><span class="price">119 TK</span></div>
-          <div class="menu-item"><span>Signature Bowl</span><span class="price">139 TK</span></div>
-        </div>
-
-        <!-- HAT SPECIALS -->
-        <div class="menu-card">
-          <h3>HAT SPECIALS</h3>
-          <div class="menu-item"><span>Mighty Chicken Bowl</span><span class="price">189 TK</span></div>
-          <div class="menu-item"><span>Chicken Ramen</span><span class="price">199 TK</span></div>
-          <div class="menu-item"><span>Juicy Wings (6pcs)</span><span class="price">199 TK</span></div>
-        </div>
-
-        <!-- ADD ONS -->
-        <div class="menu-card">
-          <h3>ADD ONS</h3>
-          <div class="menu-item"><span>Extra Cheese</span><span class="price">30 TK</span></div>
-          <div class="menu-item"><span>Extra Meat</span><span class="price">30 TK</span></div>
-          <div class="menu-item"><span>Naga</span><span class="price">10 TK</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2 class="section-title">FIND US</h2>
-      <p class="section-subtitle">Sizzle in Every Bite, Chill in Every Sip – All Under One Roof!</p>
-
-      <div class="contact-grid">
-        <div class="contact-card">
-          <div class="icon">Location</div>
-          <h3>Visit Us</h3>
-          <p class="national">
-            HEAT & TREAT<br>Agargaon-Dhaka
-          </p>
-
-          <!-- Map button with exact location -->
-          <a href="https://maps.app.goo.gl/wzH9qSpJh3XnxewX6"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="map-btn"
-             aria-label="Open location in Google Maps">
-            <span>Open in Maps</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>𝑯𝑬𝑨𝑻 𝑨𝑵𝑫 𝑻𝑹𝑬𝑨𝑻 | 𝑻𝑨𝑺𝑻𝑬𝑪𝑶𝑫𝑬</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <!-- Logo -->
+        <img src="https://i.ibb.co.com/d4dZwRPc/logo.png" alt="Heat & Treat Logo" class="hero-logo" />
+        <!-- From Uiverse.io by Amanfrom2005 -->
+        <button class="button-container">
+          <a href="https://h-a-t-frontend.onrender.com">
+          <div class="b-m-container">
+            <div class="b-m-text">Explore Now</div>
+            <div class="b-m-icon">
+              <svg viewBox="0 0 24 24" height="100%" width="100%">
+                <path
+                  d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A.998.998 0 0 0 5 3v18a1 1 0 0 0 .536.886zM7 4.909 17.243 12 19.091V4.909z"
+                ></path>
+              </svg>
+            </div>
+          </div>
           </a>
-        </div>
-
-        <div class="contact-card">
-          <div class="icon">Phone</div>
-          <h3>Call or WhatsApp</h3>
-          <p class="n1"><strong>+880 1334 218173</strong></p>
-          <p class="n2"><strong>+880 1760 623769</strong></p>
-          <p class="small">Open Daily: 5 PM – 10 PM</p>
-          <a href="tel:+8801334218173" class="contact-btn call">Call Now</a>
-          <a href="https://wa.me/8801334218173" target="_blank" class="contact-btn whatsapp">WhatsApp</a>
-        </div>
-
-        <div class="contact-card">
-          <div class="icon">Account</div>
-          <h3>Stay Connected</h3>
-          <p class="gm"><strong>tastecode.1525@gmail.com</strong></p>
-          <a href="https://mail.google.com/mail/u/0/" class="contact-btn email">Send Email</a>
-          <a href="https://www.facebook.com/share/14Mq6fMstdX/" target="_blank" class="contact-btn fb">
-            Follow on Facebook
-          </a>
-        </div>
+        </button>
       </div>
-
-      <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1825.5360849713582!2d90.37175853839683!3d23.780444249147294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c10029b432d3%3A0x611ccf31bf10a6cb!2sHEAT%20AND%20TREAT!5e0!3m2!1sen!2sbd!4v1762626789778!5m2!1sen!2sbd"
-          allowfullscreen="" loading="lazy"></iframe>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Heat and Treat. All rights reserved. | Made with fire and coffee</p>
-  </footer>
-
-  <!-- Custom JS -->
-  <script src="script.js"></script>
-</body>
+    </section>
+  </body>
 </html>
-
-
-
-
